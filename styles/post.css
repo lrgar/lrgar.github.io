@@ -1,0 +1,30 @@
+body {
+  background: white;
+  color: black;
+  margin: 3em 10em 3em 10em;
+  font-family: "Open Sans", sans-serif;
+}
+
+@media (max-width: 800px) {
+  body {
+    margin: 3em 1em 3em 1em;
+  }
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+a svg>path {
+  fill: #666;
+}
+
+a:hover {
+  color: #999;
+  text-decoration: none;
+}
+
+a:hover svg>path {
+  fill: #999;
+}
